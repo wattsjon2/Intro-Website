@@ -1,9 +1,156 @@
 <html>
-    <head>
-        <title>Test 1</title>
-    </head>
-    <body>
-        <h1>Welcome!</h1>
-        <p>This is the first test for this</p>
-    </body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.topnav {           /* add css to the links inside the navigation bar */
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.topbackground                          /* add an image to the top background */
+{background-image: url(https://media.self.com/photos/5b030b8671d9c35b2e376139/2:1/w_4949,h_2474,c_limit/started-lifting-no-experience.jpg);
+  background-size: cover; 
+  height:480px; 
+  padding-top:160px;
+}
+  .topname                              /* center the top name */
+{
+    text-align: center;
+    margin: 0px auto;
+}
+.topimage {                             /* center the top picture and add a border */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:150px; 
+  border-radius: 10%; 
+  border: 10px solid #00fe00;
+}
+.bullets {
+font-style: oblique;
+text-align: center;
+}
+
+.imageleft {
+width : 100px;
+height: 100px;
+float: left
+}
+
+.imageright {
+width : 100px;
+height: 100px;
+float: right
+}
+
+.imagecenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+.row::after {     /* used to when aligning the 3 pictures next to each other, needed to keep the text from going into the gap below the pictues */
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<div class = "topbackground">
+  <img src="https://images.all-free-download.com/images/graphiclarge/fortran_minimalist_monitor_and_computer_clip_art_9979.jpg"  class = "topimage">
+   <h1 class = "topname" href = #>Jon Watts</h1>
+   <p class = "topname">Welcome to my portfolio </p>
+    </div>
+
+<div class="topnav">
+    <a class="active" href="#These">These</a>
+    <a href="#are">Are</a>
+    <a href="#placeholder">Placeholder</a>
+    <a href="#text">text</a>
+    
+  </div>
+</head>
+<body>
+
+<h2 class = "bullets" >Why Programing?</h2>
+<p> I am intersted in programing because I love problem solving. I find the challenge of determining the correct way to go about solving a problem and then determining how to implement that solution quite rewarding</p>
+
+<h2 class = "bullets" >Education</h2>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/RPI_Engineers.svg/1024px-RPI_Engineers.svg.png" style = "width : 100px; height: 100px; float: left" /><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/University_of_La_Verne_seal.svg/150px-University_of_La_Verne_seal.svg.png" style = "width : 100px; height: 100px; float: right" />My undergraduate degree is from Rensselaer Polytechnic Institute in industrial engineering. I also have a masters degree in leadership and management from university of La Verne<br><br></p>
+
+<h2 class = "bullets" >Air Force</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/US_Air_Force_Logo_Solid_Colour.svg/220px-US_Air_Force_Logo_Solid_Colour.svg.png" style = "display: block; margin-left: auto; margin-right: auto;" />
+<p>After college I was an officer in the air force for 3 years. I was stationed at vandeberg AFB in california. During this time I was part of 4 rocket launches to put satellites into orbit.
+    I also worked with the cheif engineer on quality assurance and process refinement.
+</p>
+
+<h2 class = "bullets" >Engineering</h2>
+<img src="https://media.defense.gov/2014/Apr/03/2000862681/-1/-1/0/140403-F-QP758-006.JPG" style = "display: block; margin-left: auto; margin-right: auto; width: 30%;
+height: auto;" />
+<p>I worked as a quality assureance engineer for space launch while in the Air Force. This entailed ensuring that all assembly and test of the rockets being assembled was done correctly as well as anomally resolution and problem solving.
+    I spent a short time working as an industial engineer for Volvo Construciton Equipment. In this role I worked to increase the productivity of assembly and troubleshoot assembly issues
+</p>
+
+<h2 class = "bullets" >Teaching</h2>
+<div class="row">
+  <div class="column">
+    <img src="https://www.southcoasttoday.com/storyimage/NB/20190507/NEWS/190509620/EP/1/1/EP-190509620.jpg" alt="RPA" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://www.npsk.org/cms/lib/MA01907678/Centricity/ModuleInstance/152/large/School%20front.jpg" alt="NHS" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Westwood_High_School.jpg" alt="WHS" style="width:100%">
+  </div>
+</div>
+<p>After engineering I worked as a highschool teacher and coach. I started out by volunteering as an assistant coach for girls hockey and boys track. 
+    After that I began my teaching carrer by getting a job as an alternative educator in an urban school. This entailed teaching students that were removed by the normal highschool
+    for various reason, which was a very eye opening experience. I then moved on to teaching on an island for 2 years, which had its own challenges. My last stop was at a suburban school,
+    which required hybrid education due to covid.
+</p>
+
+<h2 class = "bullets" >Travel</h2>
+<p>I enjoy traveling when I can. I have been to <a href="https://en.wikipedia.org/wiki/Sweden">Sweden</a>, <a href="https://en.wikipedia.org/wiki/Japan">Japan</a> and <a href="https://en.wikipedia.org/wiki/South_Korea">South Korea</a>, as well as various different states</p>
+
+<h2 class = "bullets" ></h2class>Hobbies</h2>
+<p>In my free time I enjoy either fitness or video games. I try to work out 4 times a week. My friends from college use video games as a way to stay connected and an excuse to get together over the internet</p>
+<p>Do you like working out or playing video games?:</p>
+<form>
+  <input type="radio" id="workingout" name="hobbies" value="WorkingOut">
+  <label for="workingout">Working Out</label><br>
+  <input type="radio" id="videogames" name="hobbies" value="Videogames">
+  <label for="videogames">Video Games</label><br>
+  <input type="radio" id="both" name="hobbies" value="Both">
+  <label for="both">Both</label><br>
+  <input type="radio" id="neither" name="hobbies" value="Neither">
+  <label for="neither">Neither</label><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
 </html>
